@@ -5,9 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start:prod": "node index.js",
-    "start:dev": "nodemon index.js"
-  },
+  "start:prod": "node index.js",
+  "start:dev": "nodemon index.js",
+  "vercel-start": "node index.js"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
